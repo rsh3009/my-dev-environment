@@ -30,3 +30,8 @@
    history-view-vpane-position = 281
    main-window-view = HistoryView
    file-view-vpane-position = 460
+
+
+// ##### COPy TO BASHRC ######
+// source ~/.git-prompt.sh
+// export PS1='\u \w $(__git_ps1 "\[\033[01;34m\]%s \[\033[00m\]")$ '
