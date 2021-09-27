@@ -1,0 +1,7 @@
+docker pull centos/mysql-56-centos7
+
+docker run -d -e MYSQL_USER=groot -e MYSQL_PASSWORD=groot -e MYSQL_DATABASE=db_name -p 3306:3306 centos/mysql-56-centos7
+
+mysql -ugroot -pgroot -h127.0.0.1
+
+GRANT ALL PRIVILEGES ON db_name.* TO 'groot'@'%' WITH GRANT OPTION;
